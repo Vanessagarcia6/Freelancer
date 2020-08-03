@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Freelancer Starr Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <style>
+        .text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        
+        .tamaño {
+            font-size: 1.25rem;
+        }
+        
+        .tamañ {
+            font-size: 1rem;
+        }
+        
+        .fondo {
+            background-color: #2c3e50;
+        }
+        
+        .avatar {
+            width: 16rem;
+            height: auto;
+        }
+        
+        .tama {
+            font-size: 4rem;
+        }
+        
+        .colo {
+            color: white;
+        }
+        
+        .als {
+            color: #2c3e50;
+        }
+        
+        .alse {
+            font-size: 3rem;
+        }
+        
+        .ima {
+            width: 21rem;
+            height: auto;
+            margin: 0;
+            border-radius: 1.25rem;
+        }
+        
+        .al {
+            background-color: #1abc9c;
+        }
+        
+        .formulario .form-field {
+            position: relative;
+            margin: 60px 0;
+        }
+        
+        .formulario .input-text {
+            display: block;
+            width: 100%;
+            height: 36px;
+            border-width: 0 0 1px 0;
+            border-color: #000000;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+        
+        .formulario .input-text:focus+.label,
+        .formulario .input-text.not-empty+label {
+            transform: translateY(-24px);
+        }
+        
+        .formulario .input-text:focus {
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .formulario .label {
+            position: absolute;
+            left: 20px;
+            bottom: 11px;
+            font-size: 18px;
+            line-height: #000000;
+            cursor: text;
+            text-transform: capitalize;
+            transition: transform 0.2s ease-in-out;
+        }
+        
+        .formulario .submit-btn {
+            display: inline-block;
+            background-image: linear-gradient(125deg, #000000, #000000);
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 16px;
+            padding: 8px 16px;
+            border: none;
+            width: 200px;
+            cursor: pointer;
+        }
+        
+        .aline {
+            justify-content: center;
+        }
+
+    .lista{
+        display: inline;
+    }
+    </style>
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+    <nav class="navbar navbar-expand text fondo navbar-dark fixed-top mb-5 p-4 ">
+        <a class="navbar-brand container tamaño ml-5" href="#">START BOOTSTRAP</a>
+        <ul class="navbar-nav navbar-light  ml-auto tamañ">
+            <li class="nav-item">
+                <a class="nav-link active mx-5 " href="#">PORTAFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active mx-5" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active mx-5" href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <div class="jumbotron text-center al">
+
+            <img class="avatar my-5" src="assets/avataaars.svg " alt="avatar">
+
+            <h1 class="text tama colo">START BOOTSTRAP</h1>
+
+            <h3 class="colo"> Graphic Artist - Web Designer - Illustrator</h3>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class=" text-center container">
+            <h1 class="als text alse my-5">PORTAFOLIO</h1>
+            <div class="row my-5 ">
+                <div class="col-4">
+                    <img class="ima " src="assets/cabin.png" alt="cabaña">
+                </div>
+                <div class="col-4">
+                    <img class="ima " src="assets/cake.png" alt="pastel">
+                </div>
+                <div class="col-4">
+                    <img class="ima " src="assets/circus.png" alt="circo">
+                </div>
+            </div>
+
+
+            <div class="row my-5">
+                <div class="col-sm-4">
+                    <img class="ima " src="assets/game.png" alt="cabaña">
+                </div>
+                <div class="col-sm-4">
+                    <img class="ima " src="assets/safe.png" alt="pastel">
+                </div>
+                <div class="col-sm-4">
+                    <img class="ima " src="assets/submarine.png" alt="circo">
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section>
+        <div class=" jumbotron text-center  colo al">
+
+            <h1 class=" my-5 text alse ">ABOUT</h1>
+
+            <div class="row my-5 tamaño ">
+                <div class="col-sm-3 offset-sm-3">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-sm-3 ">
+                    <p> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+
+
+
+            </div>
+            <button type="button" class="btn btn-outline-light text-dark">Free Download!</button>
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="text-center text als my-5">
+
+            <h1>CONTACT ME</h1>
+
+
+            <div class="container">
+
+
+                <div class="formulario">
+
+                    <div class="form-field offset-lg-3 col-lg-6 ">
+                        <input id="name" class="input-text" type="text" name="">
+                        <label form="name" class="label">name </label>
+                    </div>
+
+                    <div class="form-field col-lg-6">
+                        <input id="email" class="input-text" type="email" name="">
+                        <label form="email" class="label">email adress </label>
+                    </div>
+
+                    <div class="form-field col-lg-6">
+                        <input id="company" class="input-text" type="text" name="">
+                        <label form="company" class="label">Phone Number </label>
+                    </div>
+
+
+                    <div class="form-field col-lg-6">
+                        <input id="message" class="input-text" type="text" name="">
+                        <label form="message" class="label"> message </label>
+                    </div>
+
+                    <div class="form-field col-lg-6">
+                        <input class="subtmit-btn" type="submit" value="submit" name="">
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+        <!-- Footer -->
+<footer class="page-footer font-small text-light pt-4 text fondo">
+
+   
+    <div class="container  text-center text-md-left">
+  
+           <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+             <h5 class="text-uppercase">LOCATION</h5>
+          <p>2215 John Daniel Drive<br>
+            Clark, MO 65243</p>
+  
+        </div>
+         
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+                <div class="col-md-3 mb-md-0 mb-3 ">
+                            <h5 class="text-uppercase">AROUND THE WEB</h5>
+                        <ul class="list-unstyled">
+            <li class="list-inline-item">
+              <img src="assets/facebook.svg" width="50 px" height="50px">
+            </li>
+            <li class="list-inline-item">
+                <img src="assets/twitter.svg" width="50 px" height="50px">
+            </li>
+            <li class="list-inline-item">
+                <img src="assets/linkedin.svg" width="50 px" height="50px">
+            </li>
+                    </ul>
+  
+        </div>
+
+          
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+                   <h5 class="text-uppercase">ABOUT FREELANCER</h5>
+  
+                   <p>Freelance is a free to use, MIT<br> licensed Bootstrap theme created by<br>
+                    Start Bootstrap .</p>
+  
+        </div>
+     
+  
+      </div>
+
+  
+    </div>
+   
+  
+    
+      
+  </footer>
+
+
+    </footer>
+    </section>
+
+</body>
+
+</html>
